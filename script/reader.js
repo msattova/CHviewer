@@ -1,5 +1,5 @@
 
-const JSON = (jsondata) => {
+const formatJSON = (jsondata) => {
   console.log(jsondata);
 
   let html = "";
