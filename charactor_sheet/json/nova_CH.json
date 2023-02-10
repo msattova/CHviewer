@@ -1,0 +1,519 @@
+{
+    "cast": {
+        "profile": {
+            "name": "庭代《にわしろ》・郁代《いくよ》",
+            "civilan_rank": "B",
+            "height": "",
+            "weight": "",
+            "age": "",
+            "setting": "フリーランスの記者。\n\nかつてはマリオネットに勤めていたが、圧力に屈して偏った報道を強いられる場合もある現実が耐えられず、退職してフリーランスに。\n\nその後、チャンネル99のプロデューサーになった結城あやに声をかけられて彼女から仕事を受けるようになった。\n\n自分の中に確固とした正しさを持っており、その正しさに従って生きてきた。\nそのような生き方を続ければ、時には社会そのものと戦うことにもなるだろうが、本人は一切気にしない。\nまた、（自覚はないが）そんな毅然とした態度が人を引き付けることもあるらしく、かえって支持者を生み出す結果になっていたりもする。\n"
+        },
+        "growth": {
+            "additional_exp": 0
+        },
+        "lifepath": {
+            "birth": {
+                "setting": "純粋培養",
+                "skill": {
+                    "name": "社会：企業",
+                    "suit": "diamond"
+                },
+                "text": ""
+            },
+            "experiment": {
+                "setting": "メディア",
+                "skill": {
+                    "name": "コネ：結城あや",
+                    "suit": "diamond"
+                },
+                "text": ""
+            },
+            "meeting": {
+                "setting": "ビジネス",
+                "skill": {
+                    "name": "コネ：ドーリス",
+                    "suit": "diamond"
+                },
+                "text": ""
+            }
+        },
+        "styles": {
+            "styleA": {
+                "name": "トーキー",
+                "reason": {
+                    "noryoku": 0,
+                    "seigyo": 0
+                },
+                "passion": {
+                    "noryoku": 0,
+                    "seigyo": 0
+                },
+                "life": {
+                    "noryoku": 0,
+                    "seigyo": 0
+                },
+                "mundane": {
+                    "noryoku": 0,
+                    "seigyo": 0
+                },
+                "persona": true,
+                "key": false
+            },
+            "styleB": {
+                "name": "カリスマ",
+                "reason": {
+                    "noryoku": 0,
+                    "seigyo": 0
+                },
+                "passion": {
+                    "noryoku": 0,
+                    "seigyo": 0
+                },
+                "life": {
+                    "noryoku": 0,
+                    "seigyo": 0
+                },
+                "mundane": {
+                    "noryoku": 0,
+                    "seigyo": 0
+                },
+                "persona": false,
+                "key": false
+            },
+            "styleC": {
+                "name": "カブキ",
+                "reason": {
+                    "noryoku": 0,
+                    "seigyo": 0
+                },
+                "passion": {
+                    "noryoku": 0,
+                    "seigyo": 0
+                },
+                "life": {
+                    "noryoku": 0,
+                    "seigyo": 0
+                },
+                "mundane": {
+                    "noryoku": 0,
+                    "seigyo": 0
+                },
+                "persona": false,
+                "key": true
+            }
+        },
+        "ability": {
+            "seicho": {
+                "reason": {
+                    "noryoku": 0,
+                    "seigyo": 0
+                },
+                "passion": {
+                    "noryoku": 0,
+                    "seigyo": 0
+                },
+                "life": {
+                    "noryoku": 0,
+                    "seigyo": 0
+                },
+                "mundane": {
+                    "noryoku": 0,
+                    "seigyo": 0
+                }
+            }
+        },
+        "skill": {},
+        "style_skill": {},
+        "outfit": {
+            "weapons": {},
+            "armours": {},
+            "vehicle": {},
+            "trons": {},
+            "cyberwear": {},
+            "culturewear": {},
+            "others": {},
+            "service": {},
+            "residence": {}
+        }
+    },
+    "医療": {
+        "suit": [
+            "spade"
+        ]
+    },
+    "射撃": {
+        "suit": [
+            "spade"
+        ]
+    },
+    "知覚": {
+        "suit": [
+            "spade"
+        ]
+    },
+    "電脳": {
+        "suit": [
+            "spade"
+        ]
+    },
+    "製作：": {
+        "suit": []
+    },
+    "心理": {
+        "suit": [
+            "clab"
+        ]
+    },
+    "自我": {
+        "suit": [
+            "clab"
+        ]
+    },
+    "交渉": {
+        "suit": [
+            "clab"
+        ]
+    },
+    "芸術：": {
+        "suit": []
+    },
+    "運動": {
+        "suit": [
+            "heart"
+        ]
+    },
+    "回避": {
+        "suit": [
+            "heart"
+        ]
+    },
+    "白兵": {
+        "suit": [
+            "heart"
+        ]
+    },
+    "操縦：": {
+        "suit": []
+    },
+    "圧力": {
+        "suit": [
+            "diamond"
+        ]
+    },
+    "信用": {
+        "suit": [
+            "clab",
+            "diamond"
+        ]
+    },
+    "隠密": {
+        "suit": [
+            "diamond"
+        ]
+    },
+    "社会：N◎VA": {
+        "suit": [
+            "diamond"
+        ]
+    },
+    "社会：メディア": {
+        "suit": [
+            "clab",
+            "heart"
+        ]
+    },
+    "社会：ストリート": {
+        "suit": [
+            "spade"
+        ]
+    },
+    "社会：警察": {
+        "suit": [
+            "clab"
+        ]
+    },
+    "コネ：結城あや": {
+        "suit": [
+            "clab"
+        ]
+    },
+    "ニュースソース": {
+        "level": 3,
+        "suit": [],
+        "ability_type": "なし",
+        "limit": 5,
+        "timing": "常時",
+        "target": "自身",
+        "range": "なし",
+        "goal": "なし",
+        "battle": "なし",
+        "text": "〈社会：メディア〉〈コネ〉判定の達成値+Lv",
+        "ref": "",
+        "higi": false,
+        "ougi": false
+    },
+    "フォトジェニック": {
+        "level": 1,
+        "suit": [
+            "clab"
+        ],
+        "ability_type": "単独",
+        "limit": 4,
+        "timing": "メジャー",
+        "target": "単体",
+        "range": "超遠",
+        "goal": 10,
+        "battle": "なし",
+        "text": "対象は[達成値/10]枚のカードを山札から引き、手札が4枚になるように余分な札を捨て札とする。\nつまり、手札を良くすることができる。",
+        "ref": "",
+        "higi": false,
+        "ougi": false
+    },
+    "叱咤激励": {
+        "level": 2,
+        "suit": [
+            "heart",
+            "diamond"
+        ],
+        "ability_type": "単独",
+        "limit": 4,
+        "timing": "メジャー",
+        "target": "単体※",
+        "range": "超遠",
+        "goal": 10,
+        "battle": "なし",
+        "text": "対象は即座に1回のメインプロセスを行う。また、このアクションはARを消費せず、ARが0でも行える。1カット1回",
+        "ref": "",
+        "higi": true,
+        "ougi": false
+    },
+    "壁に耳あり": {
+        "level": 2,
+        "suit": [
+            "clab",
+            "heart"
+        ],
+        "ability_type": "社会：メディア",
+        "limit": 4,
+        "timing": "メジャー",
+        "target": "自身",
+        "range": "なし",
+        "goal": "解説参照",
+        "battle": "なし",
+        "text": "組み合わせて行う〈社会：メディア〉による情報収集の判定は、あらゆる業界社会による判定として扱うことができる。\n登場判定や社会戦には使用不可。\n",
+        "ref": "",
+        "higi": true,
+        "ougi": false
+    },
+    "outfit weapon name": {
+        "purchase": {
+            "konyu": 0,
+            "jobika": 0
+        },
+        "hide": {
+            "hidden": 0,
+            "tojo": 0
+        },
+        "attack": {
+            "slashing": 0,
+            "piercing": 0,
+            "impact": 0,
+            "extra": 0
+        },
+        "pary": 0,
+        "seigyo_mod": 0,
+        "range": "",
+        "security": 0,
+        "position": "",
+        "text": ""
+    },
+    "スキンメイル※": {
+        "purchase": {
+            "konyu": 12,
+            "jobika": 4
+        },
+        "hide": {
+            "hidden": 16,
+            "tojo": 0
+        },
+        "guard": {
+            "slashing": 1,
+            "piercing": 1,
+            "impact": 2
+        },
+        "seigyo_mod": 0,
+        "security": 15,
+        "position": "皮膚",
+        "text": ""
+    },
+    "outfit vehicle name": {
+        "purchase": {
+            "konyu": 0,
+            "jobika": 0
+        },
+        "hide": {
+            "hidden": 0,
+            "tojo": 0
+        },
+        "attack": {
+            "slashing": 0,
+            "piercing": 0,
+            "impact": 0
+        },
+        "sf": 0,
+        "seigyo_mod": 0,
+        "capasity": 0,
+        "slot": 0,
+        "security": 0,
+        "position": "",
+        "text": ""
+    },
+    "outfit tron name": {
+        "purchase": {
+            "konyu": 6,
+            "jobika": 2
+        },
+        "hide": {
+            "hidden": 12,
+            "tojo": 0
+        },
+        "slot": "-",
+        "security": 15,
+        "position": "片手持ち",
+        "text": ""
+    },
+    "IANUS": {
+        "purchase": {
+            "konyu": 0,
+            "jobika": 0
+        },
+        "hide": {
+            "hidden": 10,
+            "tojo": 0
+        },
+        "security": "制御値",
+        "position": "全身",
+        "text": "ウェブと接続する",
+        "ref": "P.240"
+    },
+    "閃鋼": {
+        "purchase": {
+            "konyu": 20,
+            "jobika": 8
+        },
+        "hide": {
+            "hidden": 15,
+            "tojo": 0
+        },
+        "security": "16",
+        "position": "任意（神経）",
+        "text": "セットアッププロセスに使用。そのシーン中、【CS】+6。",
+        "ref": ""
+    },
+    "ストームリンク": {
+        "purchase": {
+            "konyu": 13,
+            "jobika": 5
+        },
+        "hide": {
+            "hidden": 12,
+            "tojo": 0
+        },
+        "security": "12",
+        "position": "任意（神経）",
+        "text": "マイナーアクションで使用。そのシーン中、業界社会の達成値+1",
+        "ref": ""
+    },
+    "シャープイヤー": {
+        "purchase": {
+            "konyu": 10,
+            "jobika": 2
+        },
+        "hide": {
+            "hidden": 20,
+            "tojo": 0
+        },
+        "security": "14",
+        "position": "内耳",
+        "text": "聴覚を増幅する",
+        "ref": "P.242"
+    },
+    "コンバーチブル": {
+        "purchase": {
+            "konyu": 10,
+            "jobika": 1
+        },
+        "hide": {
+            "hidden": "-",
+            "tojo": 0
+        },
+        "security": 14,
+        "position": "スーツ",
+        "text": "外見を変更できるスーツ",
+        "ref": "P.250"
+    },
+    "紅玉": {
+        "purchase": {
+            "konyu": 25,
+            "jobika": 1
+        },
+        "hide": {
+            "hidden": 10,
+            "tojo": 0
+        },
+        "security": 15,
+        "position": "眼部",
+        "text": "IANUSからの操作で瞳の色を変更できるサイバーアイ",
+        "ref": ""
+    },
+    "LDX": {
+        "purchase": {
+            "konyu": 18,
+            "jobika": 1
+        },
+        "hide": {
+            "hidden": 11,
+            "tojo": 0
+        },
+        "security": 14,
+        "position": "頭髪",
+        "text": "髪型・髪色・長さが自由自在な人工頭髪",
+        "ref": ""
+    },
+    "鬼血": {
+        "purchase": {
+            "konyu": 15,
+            "jobika": 4
+        },
+        "hide": {
+            "hidden": 15,
+            "tojo": 0
+        },
+        "security": "-",
+        "position": "-",
+        "text": "メジャーアクションで使用。そのシーン中、【生命】+1"
+    },
+    "プレスパス": {
+        "purchase": {
+            "konyu": 12,
+            "jobika": 2
+        },
+        "hide": {
+            "hidden": 10,
+            "tojo": "-"
+        },
+        "security": 15,
+        "position": "-",
+        "text": "〈社会；メディア〉の達成値に常に+1。"
+    },
+    "マンション": {
+        "purchase": {
+            "konyu": "",
+            "jobika": ""
+        },
+        "tojo_goal": 10,
+        "security": 13,
+        "position": "-",
+        "text": "エリアはグリーン"
+    }
+}

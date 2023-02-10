@@ -1,0 +1,200 @@
+[cast]
+
+[cast.profile]
+
+name = ""
+
+civilan_rank = "X" #市民ランク
+
+height = ""
+weight = ""
+age = ""
+
+
+setting = """
+ここに設定を書き込む
+"""
+
+[cast.growth]
+
+additional_exp = 0
+
+[cast.lifepath]
+
+[cast.lifepath.birth]
+setting = ""
+skill = {name="skill name", suit="spade"}
+text = ""
+
+
+[cast.lifepath.experiment]
+setting = ""
+skill = {name="skill name", suit="spade"}
+text = ""
+
+
+[cast.lifepath.meeting]
+setting = ""
+skill = {name="skill name", suit="spade"}
+text = ""
+
+[cast.styles.styleA]
+        name = "styleA"
+        reason = {noryoku=0, seigyo=0}
+        passion = {noryoku=0, seigyo=0}
+        life = {noryoku=0, seigyo=0}
+        mundane = {noryoku=0, seigyo=0}
+        persona = true
+        key = false
+
+[cast.styles.styleB]
+        name = "styleB"
+        reason = {noryoku=0, seigyo=0}
+        passion = {noryoku=0, seigyo=0}
+        life = {noryoku=0, seigyo=0}
+        mundane = {noryoku=0, seigyo=0}
+        persona = false
+        key = false
+
+[cast.styles.styleC]
+        name = "styleC"
+        reason = {noryoku=0, seigyo=0}
+        passion = {noryoku=0, seigyo=0}
+        life = {noryoku=0, seigyo=0}
+        mundane = {noryoku=0, seigyo=0}
+        persona = false
+        key = true
+
+[cast.ability.seicho]
+
+reason = {noryoku=0, seigyo=0}
+passion = {noryoku=0, seigyo=0}
+life = {noryoku=0, seigyo=0}
+mundane = {noryoku=0, seigyo=0}
+
+[cast.skill]
+
+# テーブル名は技能の名称
+["skill name"]
+level = 0
+suit = ["spade"]
+ability = "reason" # 参照能力
+
+
+[cast."style skill"]
+
+# テーブル名は技能の名称
+["style skill name"]
+level = 0
+suit = ["spade"]
+ability_type = "なし" # 技能欄
+limit = ""
+timing = ""
+target = ""
+range = ""
+goal = ""
+battle = ""
+text = ""
+ref = "参照ページ"
+
+higi = false
+ougi = false
+
+[cast.outfit.weapons]
+
+["outfit weapon name"]
+purchase = {konyu=0, jobika=0}
+hide = {hidden=0, tojo=0}
+attack = {slashing=0, piercing=0, impact=0, extra=0}
+pary = 0
+seigyo_mod = 0
+range = ""
+security = 0
+position = ""
+text = ""
+
+[cast.outfit.armours]
+
+["outfit armour name"]
+purchase = {konyu=0, jobika=0}
+hide = {hidden=0, tojo=0}
+guard = {slashing=0, piercing=0, impact=0}
+seigyo_mod = 0
+security = 0
+position = ""
+text = ""
+
+
+[cast.outfit.vehicle]
+
+["outfit vehicle name"]
+purchase = {konyu=0, jobika=0}
+hide = {hidden=0, tojo=0}
+slot = 0
+security = 0
+position = ""
+text = ""
+
+
+
+[cast.outfit.trons]
+
+["outfit tron name"]
+purchase = {konyu=0, jobika=0}
+hide = {hidden=0, tojo=0}
+attack = {slashing=0, piercing=0, impact=0}
+sf = 0
+seigyo_mod = 0
+capasity = 0 #乗員
+slot = 0
+security = 0
+position = ""
+text = ""
+
+
+[cast.outfit.cyberwear]
+
+["outfit cyberwear name"]
+purchase = {konyu=0, jobika=0}
+hide = {hidden=0, tojo=0}
+security = 0
+position = ""
+text = ""
+
+
+[cast.outfit.culturewear]
+
+["outfit culturewear name"]
+purchase = {konyu=0, jobika=0}
+hide = {hidden=0, tojo=0}
+security = 0
+position = ""
+text = ""
+
+
+[cast.outfit.residence]
+
+["outfit residence name"]
+purchase = {konyu=0, jobika=0}
+tojo_goal = 0
+security = 0
+position = ""
+text = ""
+
+[cast.outfit.others]
+
+["outfit other name"]
+purchase = {konyu=0, jobika=0}
+hide = {hidden=0, tojo=0}
+security = 0
+position = ""
+text = ""
+
+[cast.outfit.service]
+
+["outfit service name"]
+purchase = {konyu=0, jobika=0}
+hide = {hidden=0, tojo=0}
+security = 0
+position = ""
+text = ""

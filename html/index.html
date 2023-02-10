@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style/style.css">
+  <title>index</title>
+  <script src="../script/reader.js"></script>
+  <script>
+    /*
+    let url = new URL(window.location.href);
+    let params = url.searchParams;
+    let jsonurl = "../charactor_sheet/json/"+params.get("file");
+    */
+    let jsonurl = "../charactor_sheet/json/nova_CH.json";
+
+    window.addEventListener("load", ()=>{
+      fetch(jsonurl)
+        .then(response => response.json())
+        .then(data => formatJSON(data));
+    });
+  </script>
+</head>
+<body>
+
+<div id="jsondata">
+  Loading JSON data ...
+</div>
+
+</body>
+</html>
